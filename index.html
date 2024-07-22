@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tasa tu propiedad</title>
+        <link href="css/mui.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/appbar.css" rel="stylesheet" type="text/css" />
+        <link href="css/form.css" rel="stylesheet" type="text/css" />
+        <script src="js/mui.min.js"></script>
+        
+    </head>
+    <body style="background-color: #f5f5f5;">
+
+      <header class="mui-appbar mui--z1" >
+        <div class="mui-container">
+        <table>
+            <tr class="mui--appbar-height">
+            <td class="mui--text-title nav-brand">HABITAR</td>
+            <td class="mui--text-right">
+
+                <button id="menu-toggle" class="menu-toggle">☰</button>
+
+                <nav class="mui-nav">
+                  <a class="mui-nav-link nav-link" href="#">Home</a>
+                  <a class="mui-nav-link nav-link" href="#">Comprar</a>
+                  <a class="mui-nav-link nav-link" href="#">Tasacion</a>
+                  <a class="mui-nav-link nav-link" href="#">Alquilar</a>
+                  <a class="mui-nav-link nav-link" href="#">Emprendimientos</a>
+                  <a class="mui-nav-link nav-link" href="#">Franquicias</a>
+                  <a class="mui-nav-link nav-link" href="#">Blog</a>
+                  <a class="mui-nav-link nav-link" href="#">Contacto</a>
+                  <a href="#" class="mui-btn mui-btn--small mui-btn--primary" style="background-color: white; color: #3498db;">Iniciar Sesión</a>
+                </nav>
+
+                <nav id="side-menu" class="side-menu">
+                  <a class="close-btn" href="javascript:void(0)" id="close-menu">&times;</a>
+                  <a href="#">Home</a>
+                  <a href="#">Comprar</a>
+                  <a href="#">Tasacion</a>
+                  <a href="#">Alquilar</a>
+                  <a href="#">Emprendimientos</a>
+                  <a href="#">Franquicias</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Contacto</a>
+                  <a href="#" class="mui-btn mui-btn--small mui-btn--primary" style="background-color: white; color: #3498db;">Iniciar Sesión</a>
+                </nav>
+
+            </td>
+            </tr>
+        </table>
+        </div>
+    </header>
+
+
+
+
+        <div class="mui-container" style="background-color: #f5f5f5;"> 
+
+
+                <body>
+                  <table class="mui-table">
+                    <tr>
+                      <th  id="izq">
+                        <div class="mui-container form-container">
+                          <div class="form-header">
+                            <h1>Tasa tu propiedad</h1>
+                            <p>Completá el formulario y una oficina adherida a la red HABITAR se pondrá en contacto con vos para continuar con el proceso</p>
+                          </div>
+                          
+                          <form class="mui-form">
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <input type="text" required style="background-color: #ffffff;border: 1px solid #dcdcdc">
+                              <label>Nombre y apellido *</label>
+                            </div>
+                            
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <input type="email" required style="background-color: #ffffff;border: 1px solid #dcdcdc">
+                              <label>Email *</label>
+                            </div>
+                            
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <input type="tel" required style="background-color: #ffffff;border: 1px solid #dcdcdc">
+                              <label>Teléfono *</label>
+                              <small>Ingrese un número completo con código de área. Ej: 112345678 (CABA) o 3511234567 (Ciudad de Córdoba)</small>
+                            </div>
+                            
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <input type="text" required style="background-color: #ffffff;border: 1px solid #dcdcdc">
+                              <label>Localidad/provincia *</label>
+                            </div>
+                            
+                            <div class="mui-select">
+                              <select required style="background-color: #ffffff;border: 1px solid #dcdcdc">
+                                <option value="" disabled selected>Seleccionar</option>
+                                <option value="casa">Casa</option>
+                                <option value="departamento">Departamento</option>
+                                <option value="terreno">Terreno</option>
+                              </select>
+                              <label>Tipo de propiedad *</label>
+                            </div>
+                            
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <textarea style="background-color: #ffffff;border: 1px solid #dcdcdc"></textarea>
+                              <label>Comentarios</label>
+                              <small>0/250</small>
+                            </div>
+                            
+                            <button type="submit" class="mui-btn mui-btn--primary mui-btn--raised">Enviar</button>
+                          </form>
+                          
+                          <p>Al enviar se están aceptando los <a id="termino" href="#">Términos y Condiciones de Uso</a> y la <a id="politica" href="#">Política de Privacidad</a></p>
+                      </div>                       
+                      </th>
+                      <th  id="der">
+                        <div class="img-container">
+                          <img src="img/hogar.jpg" alt="Hogar" style="width: 100%">
+                      </div>
+                      </th>
+                    </tr>
+                </table>
+              </body>
+
+
+                
+        </div>
+
+
+        <script src="js/menu.js"></script>       
+    </body>
+</html>
