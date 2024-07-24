@@ -64,6 +64,11 @@ a:link, a:visited, a:hover, a:active {
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
+  #barra {
+    width: 100%;
+  }
+
+
   .menu-toggle {
     display: block;
   }
